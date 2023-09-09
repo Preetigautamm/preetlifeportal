@@ -1,0 +1,37 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.transparent-on-hover {
+    transition: opacity 0.5s; /* Smooth transition effect */
+}
+
+.transparent-on-hover:hover {
+    opacity: 0.5; /* Adjust the opacity value as needed */
+}
+
+
+.image-text{
+    position: absolute;
+    margin-top: -720px;
+    margin-left: 399px;
+    color: whitesmoke;
+    border-radius: 5px;
+    height: 100px;
+    width: 600px;
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+.image-container img {
+    position: relative;
+    display: inline-block;
+    height: 750px;
+    width:1350px;
+}
