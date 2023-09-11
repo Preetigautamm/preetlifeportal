@@ -165,6 +165,7 @@ margin-top: 15px;
   font-size: 20px;
   font-family: 'Jura', sans-serif;  
   margin-left: 200px;
+  color:black;
   /* font-weight: 100px;  */
 
  
@@ -182,6 +183,7 @@ h1{
   margin-right: 250px;
   font-family: 'Jura', sans-serif;
   line-height: 25px;
+  color:#f0f0f0;
   /* margin-top: 10px; */
 
   
@@ -485,6 +487,10 @@ color:white;
   transform: translateY(-50%);
   background: #afafb6;
 }
+
+ .topic-text p{
+  color:#f0f0f0;
+}
 .content .left-side .details{
   margin: 14px;
   text-align: center;
@@ -511,7 +517,7 @@ color:white;
 .content .right-side .topic-text{
   font-size: 23px;
   font-weight: 600;
-  color: white ;
+  color: black ;
 }
 .right-side .input-box{
   height: 50px;
@@ -542,7 +548,7 @@ color:white;
   margin-top: 12px;
 }
 .right-side .button input[type="button"]{
-  color:#718973;
+  color:black;
   font-weight: bold;
   font-size: 18px;
   outline: none;
